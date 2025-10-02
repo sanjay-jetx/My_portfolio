@@ -9,7 +9,7 @@ body {
 /* ===== Banner ===== */
 .banner {
     position: relative;
-    background-image: url("/portfolio2/used_photo/Generated Image October 01, 2025 - 2_06PM.png");
+    background-image: url("used_photo/Generated Image October 01, 2025 - 2_06PM.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -47,6 +47,7 @@ body {
 .banner h4 {
     font-weight: 400;
     margin-top: 10px;
+    line-height: 1.4;
 }
 
 /* ===== WhatsApp Button ===== */
@@ -61,7 +62,11 @@ body {
 
 /* ===== About Section ===== */
 #about img {
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 /* ===== Skills Section ===== */
@@ -78,13 +83,15 @@ body {
     width: 50px;
     height: 50px;
     object-fit: contain;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
 }
 
 /* ===== Contact Section ===== */
-section.bg-dark input, section.bg-dark textarea {
+section.bg-dark input,
+section.bg-dark textarea {
     background-color: #222;
     color: #fff;
+    border: 1px solid #444;
 }
 
 section.bg-dark input::placeholder,
@@ -108,6 +115,8 @@ footer {
     background-color: #111;
     color: #ccc;
     margin-top: 0;
+    padding: 15px 0;
+    font-size: 0.9rem;
 }
 
 /* ===== Responsive ===== */
@@ -120,5 +129,14 @@ footer {
     }
     .banner h4 {
         font-size: 1rem;
+        line-height: 1.4;
+    }
+    .card-img-top {
+        width: 40px;
+        height: 40px;
+    }
+    #about img {
+        max-width: 100%;
+        margin-bottom: 20px;
     }
 }

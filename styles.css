@@ -9,14 +9,13 @@ body {
 /* ===== Banner ===== */
 .banner {
     position: relative;
-    background-image: url(../Main_portfolio/used_photo/background.png);
+    background-image: url("./used_photo/background.png"); /* correct path */
     background-size: cover;
     background-position: center;
     color: white;
     padding: 200px 0;
     text-align: center;
 }
-
 .banner::before {
     content: "";
     position: absolute;

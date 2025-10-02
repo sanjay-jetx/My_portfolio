@@ -9,7 +9,7 @@ body {
 /* ===== Banner ===== */
 .banner {
     position: relative;
-    background-image: url("./used_photo/background.png"); /* correct path */
+    background-image: url("../used_photo/background.png"); /* correct path */
     background-size: cover;
     background-position: center;
     color: white;

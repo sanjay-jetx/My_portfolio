@@ -1,7 +1,7 @@
 /* ===== Body & Fonts ===== */
 body {
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@ body {
 /* ===== Banner ===== */
 .banner {
     position: relative;
-    background-image: url("used_photo/Generated Image October 01, 2025 - 2_06PM.png");
+    background-image: url(../Main_portfolio/used_photo/background.png);
     background-size: cover;
     background-position: center;
     color: white;
